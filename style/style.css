@@ -39,7 +39,7 @@ nav {
 
 span {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .div-idioma {
@@ -63,7 +63,7 @@ span {
 }
 
 .section-home h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     background: linear-gradient(90deg, #00F6FF, #203C5B);
     -webkit-background-clip: text;
@@ -80,12 +80,12 @@ span {
                 linear-gradient(90deg, #00F6FF, #203C5B) border-box;
     border-radius: 20px;
     padding: 15px;
-    font-size: 19px;            
+    font-size: 16
+    17px;            
 
 }
 
-
-
+/* section serviços */
 
 .section-servicos {
     display: flex;
@@ -120,7 +120,7 @@ span {
     width: 90%;
     display: flex;
     height: 50px;
-    justify-content: center;
+    justify-content: left;
     padding: 15px;
     align-items: center;
 }
@@ -131,17 +131,59 @@ span {
 }
 
 .box-titulo h3 {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .box-servicos p {
-    margin: 25px;
+    margin: 20px;
+    font-size: 16px;
 }
 
+/* section tecnologias */
 
 
+.section-tecnologias {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.section-tecnologias h2 {
+    margin-top: 100px;
+}
 
+.container-tecnologias {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-tecnologias {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #122132;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #122132;
+}
+
+.box-tecnologias img {
+    width: 60px;
+}
+
+.text-tecnologias {
+    text-align: center;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
 
 
 
